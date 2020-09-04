@@ -238,6 +238,11 @@
     
   }
 
+  .container-3 iframe{
+    border:0;
+    
+  }
+
 .container-4{
   display:flex;
   flex-wrap: wrap;
@@ -362,9 +367,7 @@
 }
 
 
-
-
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
 
 .entrevistas-titulo{
 margin-top: -10%;
@@ -392,7 +395,7 @@ margin-top: -10%;
 }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .title-1 {
     font-size: 50px;
     width: 100%;
@@ -428,7 +431,7 @@ margin-top: -10%;
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
 .header ul{
     background-color: white;
@@ -473,160 +476,9 @@ margin-top: -10%;
   line-height: 24px;
   margin-top: auto;
 }
-
-
 }
 
 @media only screen and (min-width: 1280px){
-
-.menu-wrapper{
-    height: 55px;
-    line-height: 55px;
-    width: 100%;
-  }
-
-.title-1{
-  margin-top: 15%;
-  margin-bottom: 3%;
-}
-
-.btn-conoce{
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 15%;
-    width: 226px;
-    height: 56px;
-    }
-
-.container-2 {
-  display: block;
-  margin-left: -100px;
-  margin-top: 50px;
-}
-    
-    .podcast{
-      width: 584px;
-      height: 232px;
-    
-    }
-    
-    .fondo-container-3 {
-      min-height: 1042px;
-    }
-    
-    .container-3{
-      display:grid;
-      row-gap: 72px;
-      column-gap: 72px;
-      justify-content: center;
-      align-items:center;
-      grid-template-columns: auto auto;
-      transform: translate(0px,-15%);
-    }
-    
-    .titulo-episodios{
-      font-family: 'IBM Plex Sans', sans-serif;
-      color: #FFFFFF;
-      font-size: 48px;
-      letter-spacing: 0;
-      margin-left: 15%;
-      transform: translate(0px,-60px);
-      
-    
-    }
-    
-    .phone{
-      width: 457px;
-      height: 660px;
-      transform: translate(0px,-200px);
-      position:absolute
-      
-      
-    }
-    
-    
-    .dndvenimos-container{
-      margin-left: 35%;
-      margin-bottom: 5%;
-    }
-    
-    .dndvenimos-titulo{
-      font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 48px;
-      color: #060A24;
-      letter-spacing: 0;
-    }
-    
-    .dndvenimos-texto{
-      width: 464px;
-      height: 204px;
-      font-family: 'IBM Plex Mono', monospace;
-      line-height: 24px;
-      font-size: 16px;
-    }
-
-    .entrevistas-titulo{
-      margin-top: 5%;
-    }
-    
-    .entrevistas-titulo, .topicos-titulo{
-      margin-left: 15%;
-      font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 48px;
-      color: #060A24;
-      letter-spacing: 0;
-    }
-    
-    .img-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-    
-    .fondo-container-6{
-      height: 518px;
-    }
-    
-    .novedades-titulo{
-      font-size: 48px;
-    }
-    
-    .btn-escucha{
-      font-size: 18px;
-      line-height: 24px;
-      width: 345px;
-      height: 56px;
-    }
-    
-    .footer-text{
-      float: left;
-      margin-left: 10%;
-    }
-    
-    .footer-text p{
-      font-size: 16px;
-      line-height: 28px;  
-      
-    }
-    
-    .footer-icon{
-      float:right;
-      margin-right: 10%;
-      margin-top: 2px;
-    }
-    
-    .footer-icon ul li{
-      padding-left: 44px;
-      font-size: 18px;
-    }
-
-
-}
-
-
-/* Responsive */
-
-/* Display Escritorio */
-/* 
-@media only screen and (min-width: 768px) {
 
 .menu-wrapper{
   height: 55px;
@@ -634,66 +486,34 @@ margin-top: -10%;
   width: 100%;
 }
 
-.header li {
-  float: left;
-}
-
-.header .logo{
-  line-height: 1;
-  }
-
-.header li a {
-  color: #060A24;
-  padding: 0px 30px;
-}
-
-.header .menu {
-  clear: none;
-  float: right;
-  max-height: none;
-}
-
-.header .menu-icon {
-  display: none;
-}
-
 .title-1{
-  margin-left: 15%;
-  font-size: 64px;
-  letter-spacing: 0;
-}
-
-.subtitle-1{
-  width: 39.25rem; 
-  margin-left: 15%;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: auto;
-}
-
-.subtitle-2{
-  display:none;
+  margin-top: 15%;
+  margin-bottom: 3%;
 }
 
 .btn-conoce{
-font-size: 18px;
-line-height: 24px;
-margin-left: 15%;
-width: 226px;
-height: 3.5em;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 15%;
+  width: 226px;
+  height: 56px;
 }
 
-
+.container-2 {
+  display: block;
+  margin-left: -100px;
+  margin-top: 50px;
+}
+    
 .podcast{
   width: 584px;
   height: 232px;
-
 }
-
+    
 .fondo-container-3 {
   min-height: 1042px;
 }
-
+    
 .container-3{
   display:grid;
   row-gap: 72px;
@@ -703,7 +523,7 @@ height: 3.5em;
   grid-template-columns: auto auto;
   transform: translate(0px,-15%);
 }
-
+    
 .titulo-episodios{
   font-family: 'IBM Plex Sans', sans-serif;
   color: #FFFFFF;
@@ -711,32 +531,27 @@ height: 3.5em;
   letter-spacing: 0;
   margin-left: 15%;
   transform: translate(0px,-60px);
-  
-
 }
-
+    
 .phone{
   width: 457px;
   height: 660px;
   transform: translate(0px,-200px);
   position:absolute
-  
-  
 }
-
-
+    
 .dndvenimos-container{
   margin-left: 35%;
   margin-bottom: 5%;
 }
-
+    
 .dndvenimos-titulo{
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 48px;
   color: #060A24;
   letter-spacing: 0;
 }
-
+    
 .dndvenimos-texto{
   width: 464px;
   height: 204px;
@@ -746,54 +561,55 @@ height: 3.5em;
 }
 
 .entrevistas-titulo{
+  margin-top: 5%;
+}
+    
+.entrevistas-titulo, .topicos-titulo{
   margin-left: 15%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 48px;
   color: #060A24;
   letter-spacing: 0;
 }
-
+    
 .img-grid {
   grid-template-columns: repeat(3, 1fr);
 }
-
+    
 .fondo-container-6{
   height: 518px;
 }
-
+    
 .novedades-titulo{
   font-size: 48px;
 }
-
+    
 .btn-escucha{
   font-size: 18px;
   line-height: 24px;
   width: 345px;
   height: 56px;
 }
-
+    
 .footer-text{
   float: left;
   margin-left: 10%;
 }
-
+    
 .footer-text p{
   font-size: 16px;
   line-height: 28px;  
-  
 }
-
+    
 .footer-icon{
   float:right;
   margin-right: 10%;
   margin-top: 2px;
 }
-
+    
 .footer-icon ul li{
   padding-left: 44px;
   font-size: 18px;
 }
 
-
-
-} */
+}
