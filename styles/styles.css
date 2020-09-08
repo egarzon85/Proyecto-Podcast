@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 .header {
@@ -35,6 +40,7 @@
     font-weight: 500;
     color:#00F3BB;
     text-decoration: line-through;
+    transition: 0.20s ease;
 
 }
 
@@ -159,8 +165,6 @@
   font-family: 'IBM Plex Sans', sans-serif;
   color: #060A24;
   margin-bottom: auto;
-
-
 }
 
 .subtitle-1{
@@ -358,12 +362,33 @@
   
 }
 
+.footer-icon ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-right: 80px;
+  
+}
 
 .footer-icon ul li{
+  padding-left: 44px;
+}
+
+
+
+.footer-icon ul li a{
+  text-decoration: none;
   color: #060A24;
-  display: inline-block;
-  list-style: none;
   font-size: 16px;
+}
+
+.footer-icon ul li a:hover{
+  scale: 1.30;
+  opacity: 75%;
+  color:#00F3BB;
+  transition: 0.20s ease;
 }
 
 
@@ -393,6 +418,7 @@ margin-top: -10%;
 .fondo-container-6{
   height: 300px;
 }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -429,6 +455,7 @@ margin-top: -10%;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -601,14 +628,14 @@ margin-top: -10%;
   line-height: 28px;  
 }
     
-.footer-icon{
+.footer-icon ul{
   float:right;
   margin-right: 10%;
-  margin-top: 2px;
+  margin-top: 18px;
+  
 }
     
-.footer-icon ul li{
-  padding-left: 44px;
+.footer-icon ul li a{
   font-size: 18px;
 }
 
