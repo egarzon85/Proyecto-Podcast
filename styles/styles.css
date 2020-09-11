@@ -239,12 +239,10 @@ h2 {
     align-items:center;
     grid-template-columns: auto;
     row-gap: 5%;
-    
   }
 
   .container-3 iframe{
     border:0;
-    
   }
 
 .container-4{
