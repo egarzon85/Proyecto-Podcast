@@ -1,0 +1,233 @@
+@media screen and (min-width: 480px) {
+	.entrevistas-titulo {
+		margin-top: -10%;
+	}
+	.container-3 {
+		margin: 5%;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 5%;
+	}
+	.img-grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.phone {
+		width: 457px;
+		height: 660px;
+	}
+	.fondo-container-6 {
+		height: 300px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.title-1 {
+		font-size: 50px;
+		width: 100%;
+	}
+	.subtitle-1 {
+		display: block;
+		font-family: $font_family_1;
+		color: $color_3;
+		letter-spacing: 0;
+		margin-left: 5px;
+	}
+	.subtitle-2 {
+		display: none;
+	}
+	.fondo-container-3 {
+		height: 700px;
+	}
+	.container-3 {
+		margin: 5%;
+		grid-template-columns: repeat(2, 2fr);
+		column-gap: 5%;
+	}
+	.img-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+	}
+}
+@media screen and (min-width: 1024px) {
+	.header {
+		ul {
+			background-color: $background_color_3;
+			height: 100px;
+		}
+		li {
+			float: left;
+			a {
+				color: $color_3;
+				padding: 0px 30px;
+			}
+		}
+		.logo {
+			line-height: 1;
+		}
+		.menu {
+			clear: none;
+			float: right;
+			max-height: none;
+		}
+		.menu-icon {
+			display: none;
+		}
+	}
+	.title-1 {
+		margin-left: 15%;
+		font-size: 64px;
+		letter-spacing: 0;
+		margin-bottom: 5%;
+	}
+	.subtitle-1 {
+		width: 39.25rem;
+		margin-left: 15%;
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: auto;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.menu-wrapper {
+		height: 55px;
+		line-height: 55px;
+		width: 100%;
+	}
+	.title-1 {
+		margin-top: 15%;
+		margin-bottom: 3%;
+	}
+	.btn-conoce {
+		font-size: 18px;
+		line-height: 24px;
+		margin-left: 15%;
+		width: 226px;
+		height: 56px;
+	}
+	.container-2 {
+		display: block;
+		margin-left: -100px;
+		margin-top: 50px;
+	}
+	.podcast {
+		width: 584px;
+		height: 232px;
+	}
+	.fondo-container-3 {
+		min-height: 1042px;
+	}
+	.container-3 {
+		display: grid;
+		row-gap: 72px;
+		column-gap: 72px;
+		justify-content: center;
+		align-items: center;
+		grid-template-columns: auto auto;
+		transform: translate(0px,-15%);
+	}
+	.titulo-episodios {
+		font-family: $font_family_2;
+		color: $color_1;
+		font-size: 48px;
+		letter-spacing: 0;
+		margin-left: 15%;
+		transform: translate(0px,-60px);
+	}
+	.phone {
+		width: 457px;
+		height: 660px;
+		transform: translate(0px,-200px);
+		position: absolute;
+	}
+	.dndvenimos-container {
+		margin-left: 35%;
+		margin-bottom: 5%;
+	}
+	.dndvenimos-titulo {
+		font-family: $font_family_2;
+		font-size: 48px;
+		color: $color_3;
+		letter-spacing: 0;
+	}
+	.dndvenimos-texto {
+		width: 464px;
+		height: 204px;
+		font-family: $font_family_1;
+		line-height: 24px;
+		font-size: 16px;
+	}
+	.entrevistas-titulo {
+		margin-top: 5%;
+		margin-left: 15%;
+		font-family: $font_family_2;
+		font-size: 48px;
+		color: $color_3;
+		letter-spacing: 0;
+	}
+	.topicos-titulo {
+		margin-left: 15%;
+		font-family: $font_family_2;
+		font-size: 48px;
+		color: $color_3;
+		letter-spacing: 0;
+	}
+	.img-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.fondo-container-6 {
+		height: 518px;
+		line-height: 50px;
+	}
+	.novedades-titulo {
+		font-size: 48px;
+	}
+	.btn-escucha {
+		font-size: 18px;
+		line-height: 24px;
+		width: 345px;
+		height: 56px;
+	}
+	.footer-text {
+		float: left;
+		margin-left: 10%;
+		p {
+			font-size: 16px;
+			line-height: 28px;
+		}
+	}
+	.footer-icon {
+		ul {
+			float: right;
+			margin-right: 10%;
+			margin-top: 18px;
+			li {
+				a {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen  and (min-width : 1824px) {
+
+	.podcast {
+		width: 700px;
+	}
+
+	.container-3 {
+		row-gap: 60px;
+		column-gap: 60px;
+		transform: translate(0px,-20%);
+	}
+	.titulo-episodios {
+		transform: translate(0px,-50px);
+	}
+	.phone {
+		transform: translate(0px,-200px);
+	}
+
+	.dndvenimos-container {
+		margin-left: 30%;
+	}
+
+}

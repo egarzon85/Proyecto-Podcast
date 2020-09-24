@@ -1,0 +1,34 @@
+.footer-text {
+	p {
+		font-family: $font_family_1;
+		color: $color_3;
+		letter-spacing: 0;
+		text-align: center;
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+.footer-icon {
+	ul {
+		display: flex;
+		list-style: none;
+		align-items: center;
+		justify-content: center;
+		margin-top: 25px;
+		margin-right: 80px;
+		li {
+			padding-left: 44px;
+			a {
+				text-decoration: none;
+				color: $color_3;
+				font-size: 16px;
+				&:hover {
+					scale: 1.30;
+					opacity: 75%;
+					color: $color_2;
+					transition: 0.20s ease;
+				}
+			}
+		}
+	}
+}
