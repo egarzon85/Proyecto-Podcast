@@ -1,7 +1,9 @@
 
 # Podcast "Blue Dot" :microphone: :headphones:
 
+
 ### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
+
 
 :star: Proyecto Bloque 1 - DWFS de Acámica. :star:
 
@@ -18,7 +20,6 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 - :pushpin:   Git
 
 ---
-
 
 :star: Project Block 1 - DWFS of Acámica. :star:
 
