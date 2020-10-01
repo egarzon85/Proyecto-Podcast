@@ -230,6 +230,8 @@ h1, h2 {
   grid-template-columns: auto;
   row-gap: 1%; }
   .container-podcast iframe {
+    width: 100%;
+    height: 232px;
     border: 0; }
 
 .container-phone, .container-interview {
