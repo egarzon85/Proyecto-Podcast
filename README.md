@@ -19,9 +19,8 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 
 ---
 
-Podcast "Blue Dot" 🎤 🎧
 
-⭐ Project Block 1 - DWFS of Acámica. ⭐
+:star: Project Block 1 - DWFS of Acámica. :star:
 
 ### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
 
