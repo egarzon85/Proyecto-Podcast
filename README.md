@@ -1,9 +1,9 @@
 
 # Podcast "Blue Dot" :microphone: :headphones:
 
-:star: Proyecto Bloque 1 - DWFS de Acámica. :star:
-
 ### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
+
+:star: Proyecto Bloque 1 - DWFS de Acámica. :star:
 
 El desafío está enfocado en el maquetado de la landing page de un canal de Podcast, siguiendo las guías visuales de una interfaz de usuario otorgada y desarrollando funcionalidades de reproducción de contenidos, navegación, compatibilidad con múltiples exploradores y dispositivos.
 
@@ -21,8 +21,6 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 
 
 :star: Project Block 1 - DWFS of Acámica. :star:
-
-### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
 
 The challenge is focused on the layout of the landing page of a Podcast channel, following the visual guides of a user interface provided and developing functionalities of content playback, navigation, compatibility with multiple browsers and devices.
 
