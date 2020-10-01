@@ -9,6 +9,13 @@
 h2 {
   font-weight: normal; }
 
+body {
+  margin-left: 0;
+  margin-right: 0; }
+
+h1, h2 {
+  margin-left: 10px; }
+
 /*header*/
 .header {
   position: relative;
@@ -136,7 +143,7 @@ h2 {
     color: #FFFFFF;
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%); }
 
-.title-1 {
+.title-hello {
   width: 80%;
   font-size: 36px;
   line-height: 42px;
@@ -148,6 +155,7 @@ h2 {
   display: none; }
 
 .subtitle-2 {
+  margin-left: 10px;
   font-size: 14px;
   line-height: 22px;
   font-family: "IBM Plex Mono", monospace;
@@ -160,7 +168,7 @@ h2 {
 .bdot {
   color: #0000EC; }
 
-.container-1 {
+.container-hello {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,7 +177,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
 
-.container-2 {
+.container-conoce {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,14 +189,14 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
 
-.fondo-container-3 {
+.container-bg-podcast {
   margin-top: 25px;
-  height: 1000px;
+  height: 1250px;
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
   background-image: linear-gradient(#0000FF, #0000A3); }
 
-.titulo-episodios {
+.title-episodes {
   font-family: "IBM Plex Sans", sans-serif;
   color: #FFFFFF;
   font-size: 36px;
@@ -200,7 +208,9 @@ h2 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 10vw; }
+  height: 10vw;
+  -webkit-transform: translate(0px, 1px);
+          transform: translate(0px, 1px); }
 
 .svg-diagonal-2 {
   bottom: 0;
@@ -209,7 +219,7 @@ h2 {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
-.container-3 {
+.container-podcast {
   display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -218,11 +228,11 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   grid-template-columns: auto;
-  row-gap: 5%; }
-  .container-3 iframe {
+  row-gap: 1%; }
+  .container-podcast iframe {
     border: 0; }
 
-.container-4 {
+.container-phone, .container-interview {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,31 +251,31 @@ h2 {
   position: relative;
   margin-bottom: -100px; }
 
-.dndvenimos-titulo {
+.title-dndvenimos {
   width: 90%;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #060A24;
   line-height: 42px; }
 
-.dndvenimos-texto {
+.text-dndvenimos {
   width: 100%;
   height: 254px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 50px; }
-  .dndvenimos-texto br {
+  .text-dndvenimos br {
     display: block;
     margin-bottom: 15px; }
 
-.entrevistas-titulo {
+.title-interview {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #060A24;
   line-height: 42px; }
 
-.topicos-titulo {
+.title-topics {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #060A24;
@@ -278,7 +288,7 @@ h2 {
     grid-template-columns: repeat(1, 1fr);
     max-width: 100%; }
 
-.container-5 {
+.container-topics {
   -webkit-column-gap: 5%;
           column-gap: 5%;
   display: -webkit-box;
@@ -292,27 +302,27 @@ h2 {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  .container-5 > * {
+  .container-topics > * {
     margin: 1rem 0; }
 
-.svg-item {
+.svg-topics {
   text-align: center; }
-  .svg-item p {
+  .svg-topics p {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 600;
     font-size: 24px; }
 
-.fondo-container-6 {
+.container-bg-news {
   height: 341px;
   width: 100%;
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
   background-image: linear-gradient(#0000FF, #0000A3); }
 
-.container-6 {
+.container-news {
   text-align: center; }
 
-.novedades-titulo {
+.title-news {
   font-size: 36px;
   line-height: 42px;
   font-family: "IBM Plex Sans", sans-serif;
@@ -357,10 +367,10 @@ h2 {
 
 /*responsive*/
 @media screen and (min-width: 480px) {
-  .entrevistas-titulo {
+  .title-interview {
     margin-top: -10%; }
 
-  .container-3 {
+  .container-podcast {
     margin: 5%;
     grid-template-columns: repeat(1, 1fr);
     -webkit-column-gap: 5%;
@@ -374,10 +384,10 @@ h2 {
     width: 457px;
     height: 660px; }
 
-  .fondo-container-6 {
+  .container-bg-news {
     height: 300px; } }
 @media screen and (min-width: 768px) {
-  .title-1 {
+  .title-hello {
     font-size: 50px;
     width: 100%; }
 
@@ -386,19 +396,18 @@ h2 {
     font-family: "IBM Plex Mono", monospace;
     color: #060A24;
     letter-spacing: 0;
-    margin-left: 5px; }
+    margin-left: 10px; }
 
   .subtitle-2 {
     display: none; }
 
-  .fondo-container-3 {
-    height: 700px; }
+  .container-bg-podcast {
+    height: 850px; }
 
-  .container-3 {
+  .container-podcast {
     margin: 5%;
     grid-template-columns: repeat(2, 2fr);
-    -webkit-column-gap: 5%;
-            column-gap: 5%; }
+    row-gap: 10%; }
 
   .img-grid {
     display: grid;
@@ -421,7 +430,7 @@ h2 {
   .header .menu-icon {
     display: none; }
 
-  .title-1 {
+  .title-hello {
     margin-left: 15%;
     font-size: 64px;
     letter-spacing: 0;
@@ -432,25 +441,31 @@ h2 {
     margin-left: 15%;
     font-size: 16px;
     line-height: 24px;
-    margin-top: auto; } }
+    margin-top: auto; }
+
+  .container-bg-podcast {
+    height: 900px; } }
 @media only screen and (min-width: 1280px) {
   .menu-wrapper {
     height: 55px;
     line-height: 55px;
     width: 100%; }
 
-  .title-1 {
+  .title-hello {
     margin-top: 15%;
     margin-bottom: 3%; }
 
   .btn-conoce {
     font-size: 18px;
     line-height: 24px;
-    margin-left: 15%;
+    margin-left: 21%;
     width: 226px;
     height: 56px; }
 
-  .container-2 {
+  .container-hello {
+    margin-left: 100px; }
+
+  .container-conoce {
     display: block;
     margin-left: -100px;
     margin-top: 50px; }
@@ -459,66 +474,51 @@ h2 {
     width: 584px;
     height: 232px; }
 
-  .fondo-container-3 {
+  .container-bg-podcast {
     min-height: 1042px; }
 
-  .container-3 {
-    display: grid;
-    row-gap: 72px;
-    -webkit-column-gap: 72px;
-            column-gap: 72px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    grid-template-columns: auto auto;
-    -webkit-transform: translate(0px, -15%);
-            transform: translate(0px, -15%); }
-
-  .titulo-episodios {
+  .title-episodes {
     font-family: "IBM Plex Sans", sans-serif;
     color: #FFFFFF;
     font-size: 48px;
     letter-spacing: 0;
-    margin-left: 15%;
-    -webkit-transform: translate(0px, -60px);
-            transform: translate(0px, -60px); }
+    -webkit-transform: translate(-50px, 20px);
+            transform: translate(-50px, 20px);
+    margin-left: 15%; }
 
   .phone {
     width: 457px;
     height: 660px;
     -webkit-transform: translate(0px, -200px);
-            transform: translate(0px, -200px);
-    position: absolute; }
+            transform: translate(0px, -200px); }
 
-  .dndvenimos-container {
+  .container-dndvenimos {
     margin-left: 35%;
     margin-bottom: 5%; }
 
-  .dndvenimos-titulo {
+  .title-dndvenimos {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060A24;
     letter-spacing: 0; }
 
-  .dndvenimos-texto {
+  .text-dndvenimos {
     width: 464px;
     height: 204px;
     font-family: "IBM Plex Mono", monospace;
     line-height: 24px;
     font-size: 16px; }
 
-  .entrevistas-titulo {
-    margin-top: 5%;
+  .title-interview {
+    margin-top: 10px;
     margin-left: 15%;
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
     color: #060A24;
     letter-spacing: 0; }
 
-  .topicos-titulo {
+  .title-topics {
+    margin-top: 70px;
     margin-left: 15%;
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 48px;
@@ -528,11 +528,11 @@ h2 {
   .img-grid {
     grid-template-columns: repeat(3, 1fr); }
 
-  .fondo-container-6 {
+  .container-bg-news {
     height: 518px;
     line-height: 50px; }
 
-  .novedades-titulo {
+  .title-news {
     font-size: 48px; }
 
   .btn-escucha {
@@ -555,25 +555,53 @@ h2 {
     .footer-icon ul li a {
       font-size: 18px; } }
 @media only screen and (min-width: 1824px) {
-  .podcast {
-    width: 700px; }
+  .header {
+    padding-right: 100px; }
+    .header a img {
+      width: 75px;
+      height: 75px;
+      -webkit-transform: translate(75px);
+              transform: translate(75px); }
+    .header ul {
+      margin-top: 20px; }
 
-  .container-3 {
-    row-gap: 60px;
-    -webkit-column-gap: 60px;
-            column-gap: 60px;
-    -webkit-transform: translate(0px, -20%);
-            transform: translate(0px, -20%); }
+  .btn-conoce {
+    margin-left: 370px; }
 
-  .titulo-episodios {
-    -webkit-transform: translate(0px, -50px);
-            transform: translate(0px, -50px); }
+  .container-bg-podcast {
+    height: 1200px; }
+
+  .container-podcast {
+    -webkit-transform: translate(100px, -60px);
+            transform: translate(100px, -60px);
+    width: 80vw;
+    height: 60vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .container-podcast iframe {
+      width: 700px; }
+
+  .title-episodes {
+    -webkit-transform: translate(-100px, 0px);
+            transform: translate(-100px, 0px); }
 
   .phone {
-    -webkit-transform: translate(0px, -200px);
-            transform: translate(0px, -200px); }
+    -webkit-transform: translate(-100px, -250px);
+            transform: translate(-100px, -250px); }
 
-  .dndvenimos-container {
-    margin-left: 30%; } }
+  .container-dndvenimos {
+    -webkit-transform: translate(-150px);
+            transform: translate(-150px);
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

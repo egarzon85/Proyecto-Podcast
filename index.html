@@ -17,7 +17,7 @@
 <body>
     <div class="menu-wrapper">
         <header class="header">
-            <a href="#home" class="logo"><img src="img/logo.svg" alt="logotipoBD"></a>
+            <a href="#home"><img class="logo" src="img/logo.svg" alt="logotipoBD"></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
@@ -31,9 +31,9 @@
 
     <main>
     
-        <div class=container-1>
+        <div class=container-hello>
             <div>
-                <h1 class=title-1> Hello <span class="world">world</span> pale blue dot <span class="bdot">.</span></h1>
+                <h1 class=title-hello> Hello <span class="world">world</span> pale blue dot <span class="bdot">.</span></h1>
             </div>
 
             <div>
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class=container-2>
+        <div class=container-conoce>
             <form>
                 <button class=btn-conoce formaction="#nosotros">CONOCÉ MÁS</button>
             </form>
@@ -54,49 +54,42 @@
         
 
         
-        <div class=fondo-container-3>
-            <svg class=svg-diagonal-1 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <div class="container-bg-podcast">
+            <svg class="svg-diagonal-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon fill="white" points="0,100 100,0 100,100"/>
             </svg>
 
-            <svg class=svg-diagonal-2 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <svg class="svg-diagonal-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon fill="white" points="0,100 100,0 100,100"/>
             </svg>
             <a id="episodios"></a>
-            <p class=titulo-episodios>Episodios</p>
-            <div class=container-3>
-                <iframe class=podcast src="https://open.spotify.com/embed-podcast/show/3yaQiPxAeM5K6RUZEZfTeS" 
-                allow="encrypted-media">
-                </iframe>
-                <iframe class=podcast src="https://open.spotify.com/embed-podcast/show/6C4MdNWQSPhmzBlIVau30e" 
-                allow="encrypted-media">
-                </iframe>
-                <iframe class=podcast src="https://open.spotify.com/embed-podcast/show/3GxlXiLy0IfGWFYsANpihx" 
-                allow="encrypted-media">
-                </iframe>
-                <iframe class=podcast src="https://open.spotify.com/embed-podcast/show/1lQyHukJocgbx7xukcjfzw" 
-                allow="encrypted-media">
-                </iframe>
+            <p class="title-episodes">Episodios</p>
+            <div class=container-podcast>
+                <iframe class="podcast" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" allow="encrypted-media"></iframe>
+                <iframe class="podcast" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" allow="encrypted-media"></iframe>
+                <iframe class="podcast" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" allow="encrypted-media"></iframe>
+                <iframe class="podcast" src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW" width="100%" height="232" allow="encrypted-media"></iframe>
             </div>
         </div>
 
-        <div class=container-4>
+        <div class="container-phone">
         <div>
-            <img class=phone src="img/phone.png" alt=phone>
+            <img class="phone" src="img/phone.png" alt=phone>
         </div>
-
+    <section>
         <a id="nosotros"></a>
-        <div class=dndvenimos-container>
-            <p class=dndvenimos-titulo>De dónde venimos</p>
-            <p class=dndvenimos-texto>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br> 
+        <div class="container-dndvenimos">
+            <h2 class="title-dndvenimos">De dónde venimos</p>
+            <p class="text-dndvenimos">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br> 
             Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
         </div>
         </div>
+    </section>
 
     <section>
         <a id="entrevistas"></a>
-        <h2 class=entrevistas-titulo>Invitadas/os estelares</h2>
-        <div class="container-4">
+        <h2 class="title-interview">Invitadas/os estelares</h2>
+        <div class="container-interview">
             <div class="img-grid">
                 <img src="img/invitadx_1.png" alt="invitadx_1">
                 <img src="img/invitadx_2.png" alt="invitadx_2">
@@ -110,21 +103,21 @@
 
         <section>
             <a id="topicos"></a>
-            <h2 class=topicos-titulo>Algunos de nuestros temas </h2>
-            <div class=container-5>
-                    <div class="svg-item">
+            <h2 class="title-topics">Algunos de nuestros temas </h2>
+            <div class="container-topics">
+                    <div class="svg-topics">
                         <img src="img/icon1.svg" alt="">
                         <p>Trabajo Remoto</p>
                     </div>
-                    <div class="svg-item">              
+                    <div class="svg-topics">              
                         <img src="img/icon2.svg" alt="">
                         <p>Repensando la<br>programación</p>
                         </div>
-                    <div class="svg-item">
+                    <div class="svg-topics">
                         <img src="img/icon3.svg" alt="">
                         <p>Bases del código</p>
                     </div>
-                    <div class="svg-item">
+                    <div class="svg-topics">
                         <img src="img/icon4.svg" alt="">
                         <p>Seguridad<br>informática</p>
                     </div>
@@ -132,14 +125,14 @@
         </section>
 
         <section>
-            <div class=fondo-container-6>
-                <svg class=svg-diagonal-2 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <div class="container-bg-news">
+                <svg class="svg-diagonal-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <polygon fill="white" points="0,100 100,0 100,100"/>
                 </svg>
-                <div class="container-6">
-                    <h2 class="novedades-titulo">¿Querés las últimas novedades?</h2>
+                <div class="container-news">
+                    <h2 class="title-news">¿Querés las últimas novedades?</h2>
                     <form>
-                        <button class=btn-escucha formaction="#episodios">ESCUCHÁ LOS EPISODIOS</button>
+                        <button class="btn-escucha" formaction="#episodios">ESCUCHÁ LOS EPISODIOS</button>
                     </form>
                 </div>
 

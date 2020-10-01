@@ -13,7 +13,7 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 
 - :pushpin:   HTML5
 - :pushpin:   CSS3 - SASS/SCSS
-- :pushpin:   FontAwesome
+- :pushpin:   Font Awesome
 - :pushpin:   Google Fonts
 - :pushpin:   Git
 

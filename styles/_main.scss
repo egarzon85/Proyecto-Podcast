@@ -23,7 +23,7 @@
 .btn-escucha {
 	@extend %btn-class;
 }
-.title-1 {
+.title-hello {
 	width: 80%;
 	font-size: 36px;
 	line-height: 42px;
@@ -35,6 +35,7 @@
 	display: none;
 }
 .subtitle-2 {
+	margin-left: 10px;
 	font-size: 14px;
 	line-height: 22px;
 	font-family: $font_family_1;
@@ -47,22 +48,22 @@
 .bdot {
 	color: $color_4;
 }
-.container-1 {
+.container-hello {
 	display: flex;
 	flex-direction: column;
 }
-.container-2 {
+.container-conoce {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.fondo-container-3 {
+.container-bg-podcast {
 	margin-top: 25px;
-	height: 1000px;
+	height: 1250px;
 	position: relative;
 	background-image: linear-gradient(#0000FF, #0000A3);
 }
-.titulo-episodios {
+.title-episodes {
 	font-family: $font_family_2;
 	color: $color_1;
 	font-size: 36px;
@@ -75,6 +76,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 10vw;
+	transform: translate(0px,1px);
 }
 .svg-diagonal-2 {
 	bottom: 0;
@@ -82,22 +84,23 @@
 	height: 10vw;
 	transform: rotate(180deg);
 }
-.container-3 {
+.container-podcast {
 	display: grid;
 	justify-content: center;
 	align-items: center;
 	grid-template-columns: auto;
-	row-gap: 5%;
+	row-gap: 1%;
 	iframe {
 		border: 0;
 	}
 }
-.container-4 {
+.container-phone, .container-interview {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: auto;
 }
+
 .phone {
 	width: 100%;
 	height: 519px;
@@ -105,14 +108,14 @@
 	position: relative;
 	margin-bottom: -100px;
 }
-.dndvenimos-titulo {
+.title-dndvenimos {
 	width: 90%;
 	font-family: $font_family_2;
 	font-size: 36px;
 	color: $color_3;
 	line-height: 42px;
 }
-.dndvenimos-texto {
+.text-dndvenimos {
 	width: 100%;
 	height: 254px;
 	font-family: $font_family_1;
@@ -124,13 +127,13 @@
 		margin-bottom: 15px;
 	}
 }
-.entrevistas-titulo {
+.title-interview {
 	font-family: $font_family_2;
 	font-size: 36px;
 	color: $color_3;
 	line-height: 42px;
 }
-.topicos-titulo {
+.title-topics {
 	font-family: $font_family_2;
 	font-size: 36px;
 	color: $color_3;
@@ -144,7 +147,7 @@
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 }
-.container-5 {
+.container-topics {
 	>* {
 		margin: 1rem 0;
 	}
@@ -154,7 +157,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.svg-item {
+.svg-topics {
 	text-align: center;
 	p {
 		font-family: $font_family_2;
@@ -162,20 +165,21 @@
 		font-size: 24px;
 	}
 }
-.fondo-container-6 {
+.container-bg-news {
 	height: 341px;
 	width: 100%;
 	position: relative;
 	background-image: linear-gradient(#0000FF, #0000A3);
 }
-.container-6 {
+.container-news {
 	text-align: center;
 	
 }
-.novedades-titulo {
+.title-news {
 	font-size: 36px;
 	line-height: 42px;
 	font-family: $font_family_2;
 	color: $color_1;
 	letter-spacing: 0;
 }
+
