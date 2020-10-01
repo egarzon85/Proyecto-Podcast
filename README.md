@@ -27,7 +27,8 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 The challenge is focused on the layout of the landing page of a Podcast channel, following the visual guides of a user interface provided and developing functionalities of content playback, navigation, compatibility with multiple browsers and devices.
 
 The site is built using the Mobile First mode and using semantic HTML to exercise good web development practices.
-Resources and technologies used
+
+## Resources and technologies used
 
 - :pushpin: HTML5
 - :pushpin: SASS / SCSS
