@@ -21,7 +21,7 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 
 ---
 
-:star: Project Block 1 - DWFS of Acámica. :star:
+:star: Project Unit 1 - DWFS of Acámica. :star:
 
 The challenge is focused on the layout of q landing page of a Podcast channel, following the visual guides of a user interface provided and developing functionalities of content playback, navigation, compatibility with multiple browsers and devices.
 
