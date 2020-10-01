@@ -22,7 +22,8 @@ El sitio está construido utilizando la modalidad Mobile First y utilizando HTML
 Podcast "Blue Dot" 🎤 🎧
 
 ⭐ Project Block 1 - DWFS of Acámica. ⭐
-Live Demo
+
+### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
 
 The challenge is focused on the layout of the landing page of a Podcast channel, following the visual guides of a user interface provided and developing functionalities of content playback, navigation, compatibility with multiple browsers and devices.
 
