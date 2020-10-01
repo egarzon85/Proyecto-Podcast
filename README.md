@@ -1,7 +1,7 @@
 
 # Podcast "Blue Dot" :microphone: :headphones:
 
-:star: Proyecto Bloque 1 - Desarrollo Web Full Stack de Acámica. :star:
+:star: Proyecto Bloque 1 - DWFS de Acámica. :star:
 
 ### [Live Demo](https://egarzon85.github.io/Proyecto-Podcast/)
 
